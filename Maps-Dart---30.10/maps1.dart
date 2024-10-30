@@ -31,4 +31,12 @@ void main() {
   estados[3] = "São Paulo";
   print(estados.values);
 
+  // organiza a partir de chave e valor
+  estados.forEach((chave,valor)=>print("$chave - $valor"));
+
+  Map<String, dynamic> usuarios = Map();
+  usuarios["nome"] = "Vitor";
+  usuarios["idade"] = 40;
+
+  print(usuarios);
 }
