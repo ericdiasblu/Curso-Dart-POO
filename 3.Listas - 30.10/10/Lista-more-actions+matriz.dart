@@ -21,6 +21,7 @@ void main() {
 
   // lista imutável 
   var numeros = List.unmodifiable([1,2,3]);
+  print(numeros);
   //: erro :: numeros.add(4);
 
   //matriz
@@ -40,9 +41,9 @@ List<List<int>> matriz2 = [
     [4,5,6],
     [7,8,9]
 ];
-for (var i = 0; i < matriz.length; i++) {
-  for (var j = 0; j < matriz[i].length; j++) {
-    print('Elemento da posição ($i,$j): ${matriz[i][j]}');
+for (var i = 0; i < matriz2.length; i++) {
+  for (var j = 0; j < matriz2[i].length; j++) {
+    print('Elemento da posição ($i,$j): ${matriz2[i][j]}');
     
   }
 }
@@ -71,7 +72,7 @@ for (var i = 0; i < matriz4.length; i++) {
 print(matriz4);
 
 // verificar se é nula e juntar duas listas
-
+/*
 List<int> lista1 = [1,2,3];
 List<int> lista2 = [6,7,8];
 var lista3 = null;
@@ -80,5 +81,5 @@ List listaTotal = [];
 
 listaTotal = [0,...?lista1,...?lista2,...?lista3,89];
 print(listaTotal);
-
+*/
 }

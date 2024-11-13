@@ -21,6 +21,8 @@ void main() {
   int numero = listaObject[0] as int;
   String texto = listaObject[1] as String;
   print(listaObject);
+  print(numero);
+  print(texto);
 
   
 

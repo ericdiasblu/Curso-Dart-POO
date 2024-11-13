@@ -21,7 +21,7 @@ void main() {
   estados[1] = "Parana";
   estados[2] = "Rio Grande do Sul";
   estados[3] = "São Paulo";
-  print(estados.keys);
+  print(estados2.keys);
 
   // printa os valores do map
   Map<String,String> estados3 = Map();
@@ -29,7 +29,7 @@ void main() {
   estados[1] = "Parana";
   estados[2] = "Rio Grande do Sul";
   estados[3] = "São Paulo";
-  print(estados.values);
+  print(estados3.values);
 
   // organiza a partir de chave e valor
   estados.forEach((chave,valor)=>print("$chave - $valor"));
